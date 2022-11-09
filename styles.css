@@ -1,0 +1,141 @@
+
+img {
+    width: 100px;
+}
+
+.gc1 {
+    display: grid;
+    background-color: crimson;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 10px;
+    width: 22%;
+}
+
+.gc1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+
+.gc2 {
+    display: grid;
+    background-color: crimson;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.gc2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+}
+
+.it1 {
+    grid-column: 1 / span 2;
+}
+
+.gc2 > div > article > p , h1{
+    font-size: 30px;
+}
+.alvl1 {
+    margin: 0;
+    padding: 10px;
+    background-color: firebrick;
+}
+
+.gc3 {
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.8);
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 10px;
+}
+
+.gc3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.fc1 {
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    padding: 10px;
+    justify-content: center;
+}
+
+.fc1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.fc2 {
+    display: flex;
+    flex-direction: row;
+    background-color: lightsalmon;
+    padding: 10px;
+    justify-content: center;
+}
+
+.fc2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.fc3 {
+    display: flex;
+    flex-direction: row;
+    background-color: springgreen;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.fc3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.fc4 {
+    display: flex;
+    flex-direction: row;
+    background-color: powderblue;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.fc4 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.fc5 {
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.fc5 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    font-size: 150%;
+}
